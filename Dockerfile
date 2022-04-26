@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:11
 VOLUME /tmp
 RUN mkdir -p /opt/api/
 COPY target/*.jar /opt/api/app.jar
